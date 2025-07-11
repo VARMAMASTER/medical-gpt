@@ -1,13 +1,20 @@
+'use client';
+
 import { Suspense } from 'react';
-import PreviewLayout from './PreviewLayout';
-import ComponentsShowcase from './ComponentsShowcase';
+import dynamic from 'next/dynamic';
+import PreviewLayout from '@/app/components/PreviewLayout';
+
+const ComponentsShowcase = dynamic(
+  () => import('@/app/components/ComponentsShowcase'),
+  {
+    loading: () => <div>Loading components...</div>
+  }
+);
 
 export default function ComponentsPage() {
   return (
     <PreviewLayout>
-      <Suspense fallback={<div>Loading components...</div>}>
-        <ComponentsShowcase />
-      </Suspense>
+      <ComponentsShowcase />
     </PreviewLayout>
   );
 }

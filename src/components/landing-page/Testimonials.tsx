@@ -8,25 +8,25 @@ const testimonials = [
 		role: "Content Manager",
 		company: "TechCorp",
 		quote: "This AI writing tool has completely transformed our content creation process. The suggestions are spot-on and have helped us improve our writing quality significantly.",
-		image: "/testimonials/sarah.jpg",
+		image: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=400&q=80",
 	},
 	{
 		name: "Michael Chen",
 		role: "Marketing Director",
 		company: "GrowthLabs",
 		quote: "The real-time assistance and multi-language support have been game-changers for our global marketing campaigns. Highly recommended!",
-		image: "/testimonials/michael.jpg",
+		image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=facearea&w=400&h=400&q=80",
 	},
 	{
 		name: "Emily Rodriguez",
 		role: "Lead Writer",
 		company: "ContentPro",
 		quote: "As a professional writer, I was skeptical at first. But this tool has become indispensable in my workflow, helping me write better and faster.",
-		image: "/testimonials/emily.jpg",
+		image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&w=400&h=400&q=80",
 	},
 ];
 
-function TestimonialCard({ name, role, company, quote, image, delay }) {
+function TestimonialCard({ name, role, company, quote, image, delay }: { name: string, role: string, company: string, quote: string, image: string, delay: number }) {
 	return (
 		<motion.div
 			initial={{ opacity: 0, y: 20 }}

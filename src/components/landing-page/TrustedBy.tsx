@@ -31,12 +31,12 @@ function BrandLogo({ name, logo, delay }: BrandLogoProps) {
 
 export default function TrustedBy() {
   const brands = [
-    { name: "Disney", logo: "/brands/disney.svg" },
-    { name: "Canva", logo: "/brands/canva.svg" },
-    { name: "Amazon", logo: "/brands/amazon.svg" },
-    { name: "Notion", logo: "/brands/notion.svg" },
-    { name: "Tinder", logo: "/brands/tinder.svg" },
-    { name: "Airbnb", logo: "/brands/airbnb.svg" },
+    { name: "Disney", logo: "https://upload.wikimedia.org/wikipedia/commons/d/df/Disney_wordmark.svg" },
+    { name: "Canva", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_logo_2021.svg" },
+    { name: "Amazon", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
+    { name: "Notion", logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" },
+    { name: "Tinder", logo: "https://upload.wikimedia.org/wikipedia/commons/5/56/Tinder_Logo.svg" },
+    { name: "Airbnb", logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg" },
   ];
 
   return (

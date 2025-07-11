@@ -2,10 +2,10 @@
 
 import { Suspense } from 'react';
 import dynamic from 'next/dynamic';
-import PreviewLayout from '@/app/components/PreviewLayout';
+import PreviewLayout from './preview-layout/page';
 
 const ComponentsShowcase = dynamic(
-  () => import('@/app/components/ComponentsShowcase'),
+  () => import('./showcase/page'),
   {
     loading: () => <div>Loading components...</div>
   }

@@ -20,7 +20,7 @@ export default function ContactForm() {
 
   return (
     <ToastProvider>
-      <section className="py-20 flex flex-col items-center justify-center bg-background">
+      <section id="contact" className="py-20 flex flex-col items-center justify-center bg-background">
         <h2 className="text-3xl md:text-4xl font-bold text-text mb-6">Contact With Us</h2>
         <form onSubmit={handleSubmit} className="bg-card rounded-2xl shadow-xl p-8 w-full max-w-lg flex flex-col gap-6 border border-border">
           <input name="name" value={form.name} onChange={handleChange} required placeholder="Name" className="bg-background border border-border rounded px-4 py-3 text-text" />

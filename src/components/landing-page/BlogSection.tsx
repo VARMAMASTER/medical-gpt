@@ -81,7 +81,7 @@ export default function BlogSection() {
 				"Explore the latest trends and innovations in AI-powered writing assistance and what they mean for content creators.",
 			date: "2025-07-01",
 			readTime: "5 min",
-			image: "/blog/future-ai.jpg",
+			image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
 			slug: "future-of-ai-writing-2025",
 		},
 		{
@@ -90,7 +90,7 @@ export default function BlogSection() {
 				"Practical tips and techniques to enhance your writing using artificial intelligence tools.",
 			date: "2025-06-28",
 			readTime: "4 min",
-			image: "/blog/improve-writing.jpg",
+			image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
 			slug: "improve-writing-with-ai",
 		},
 		{
@@ -99,7 +99,7 @@ export default function BlogSection() {
 				"A deep dive into the ethical considerations of using AI in content creation and writing.",
 			date: "2025-06-25",
 			readTime: "6 min",
-			image: "/blog/ai-ethics.jpg",
+			image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
 			slug: "ai-writing-ethics",
 		},
 	];

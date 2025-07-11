@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
-import { Label } from '@/components/ui/Label';
+import { Label } from '@/components/ui/pure/Label';
 import { animations } from '@/lib/animations';
 
 export default function LabelDemo() {

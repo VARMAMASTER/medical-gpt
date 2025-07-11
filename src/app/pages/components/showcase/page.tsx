@@ -2,19 +2,19 @@
 
 import { motion } from "framer-motion";
 import { animations } from "@/lib/animations";
-import AccordionDemo from '@/components/ui/AccordionDemo';
-import AlertDialogDemo from '@/components/ui/AlertDialogDemo';
-import AspectRatioDemo from '@/components/ui/AspectRatioDemo';
-import AvatarDemo from '@/components/ui/AvatarDemo';
-import CheckboxDemo from '@/components/ui/CheckboxDemo';
-import CollapsibleDemo from '@/components/ui/CollapsibleDemo';
-import ContextMenuDemo from '@/components/ui/ContextMenuDemo';
-import DialogDemo from '@/components/ui/DialogDemo';
-import DropdownMenuDemo from '@/components/ui/DropdownMenuDemo';
-import LabelDemo from '@/components/ui/LabelDemo';
-import MenubarDemo from '@/components/ui/MenubarDemo';
-import NavigationMenuDemo from '@/components/ui/NavigationMenuDemo';
-import HoverCardDemo from '@/components/ui/HoverCardDemo';
+import AccordionDemo from '@/components/ui/pure/AccordionDemo';
+import AlertDialogDemo from '@/components/ui/pure/AlertDialogDemo';
+import AspectRatioDemo from '@/components/ui/pure/AspectRatioDemo';
+import AvatarDemo from '@/components/ui/pure/AvatarDemo';
+import CheckboxDemo from '@/components/ui/pure/CheckboxDemo';
+import CollapsibleDemo from '@/components/ui/pure/CollapsibleDemo';
+import ContextMenuDemo from '@/components/ui/pure/ContextMenuDemo';
+import DialogDemo from '@/components/ui/pure/DialogDemo';
+import DropdownMenuDemo from '@/components/ui/pure/DropdownMenuDemo';
+import LabelDemo from '@/components/ui/pure/LabelDemo';
+import MenubarDemo from '@/components/ui/pure/MenubarDemo';
+import NavigationMenuDemo from '@/components/ui/pure/NavigationMenuDemo';
+import HoverCardDemo from '@/components/ui/pure/HoverCardDemo';
 
 export default function ComponentsShowcase() {
   const components = [

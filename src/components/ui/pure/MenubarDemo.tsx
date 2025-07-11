@@ -10,7 +10,7 @@ import {
   MenubarSubContent,
   MenubarSeparator,
   MenubarShortcut,
-} from '@/components/ui/Menubar';
+} from '@/components/ui/pure/Menubar';
 import { motion } from 'framer-motion';
 
 const MenubarDemo = () => {

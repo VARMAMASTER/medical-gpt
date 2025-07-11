@@ -6,7 +6,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
   NavigationMenuLink,
-} from '@/components/ui/NavigationMenu';
+} from '@/components/ui/pure/NavigationMenu';
 import { motion } from 'framer-motion';
 
 const ListItem = React.forwardRef<
